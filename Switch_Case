@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class SwitchCase {
+
+	public static void main(String[] args) {
+		int input;
+		System.out.println("Pick your choice\n 1.hi\n 2.hello\n 3.hey");
+		Scanner s = new Scanner(System.in);
+		input = s.nextInt();
+		  switch(input){  
+		    //Case statements  
+		    case 1: System.out.println("you said hi");  
+		    break;  
+		    case 2: System.out.println("you said hello");  
+		    break;  
+		    case 3: System.out.println("you said hey");  
+		    break;  
+		    //Default case statement  
+		    default:System.out.println("invalid choice");  
+		    }  
+	}
+
+}
